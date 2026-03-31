@@ -1,99 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sukhmeet Singh | Portfolio</title>
+    <title>Sukhmeet Singh | Flutter & AI Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .skill-badge { @apply bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold; }
+    </style>
 </head>
+<body class="bg-slate-50 text-slate-900 font-sans">
 
-<body class="bg-gray-50 text-gray-900 font-sans">
-
-    <header class="bg-blue-600 text-white py-12 text-center">
-        <h1 class="text-4xl font-bold">Sukhmeet Singh</h1>
-        <p class="text-xl mt-2">Flutter Developer & Machine Learning Engineer</p>
-        <div class="mt-4">
-            <a href="mailto:connecttosukh@gmail.com" class="underline">connecttosukh@gmail.com</a> |
-            [span_1](start_span)+91 95177 94684[span_1](end_span)
+    <header class="bg-blue-600 text-white py-16 px-6 text-center shadow-lg">
+        <h1 class="text-5xl font-extrabold tracking-tight">Sukhmeet Singh</h1>
+        <p class="text-2xl mt-4 opacity-90 font-light">Flutter Developer & Machine Learning Engineer</p>
+        <div class="mt-6 flex justify-center gap-4 text-sm md:text-base">
+            <a href="mailto:connecttosukh@gmail.com" class="hover:text-blue-200 transition">connecttosukh@gmail.com</a>
+            <span>|</span>
+            <span>+91 95177 94684</span>
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto p-6">
-        <section class="my-10">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-600 pb-2">About Me</h2>
-            <p class="mt-4 leading-relaxed">
-                [span_2](start_span)Experienced in building production-grade mobile applications and ML-powered
-                systems[span_2](end_span).
-                [span_3](start_span)[span_4](start_span)Proven track record with 4+ clients and live apps on the Play
-                Store[span_3](end_span)[span_4](end_span).
+    <main class="max-w-4xl mx-auto py-12 px-6">
+        
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-blue-600 border-b-4 border-blue-600 inline-block mb-6">About Me</h2>
+            <p class="text-lg leading-relaxed text-slate-700">
+                I am a specialized developer focused on building production-grade mobile applications and ML-powered systems. 
+                With a **proven track record of working with 4+ clients**, I deliver live, scalable apps to the Play Store that integrate advanced AI capabilities.
             </p>
         </section>
 
-        <section class="my-10">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-600 pb-2">Experience</h2>
-            <div class="mt-4 space-y-6">
-                <div>
-                    [span_5](start_span)<h3 class="font-bold text-lg">Visionary AI — Flutter & ML
-                        Engineer[span_5](end_span)</h3>
-                    [span_6](start_span)<p class="text-gray-600">June 2025 - Present[span_6](end_span)</p>
-                    <ul class="list-disc ml-5 mt-2">
-                        [span_7](start_span)<li>Developing cross-platform Flutter apps with integrated AI
-                            features[span_7](end_span).</li>
-                        [span_8](start_span)<li>Deploying ML models on AWS and GCP[span_8](end_span).</li>
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-blue-600 border-b-4 border-blue-600 inline-block mb-6">Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+                    <h3 class="text-xl font-bold">Visionary AI — Flutter & ML Engineer</h3>
+                    <p class="text-slate-500 italic">June 2025 - Present</p>
+                    <ul class="list-disc ml-6 mt-3 space-y-2 text-slate-700">
+                        [span_0](start_span)<li>Developing cross-platform Flutter apps with integrated AI features[span_0](end_span).</li>
+                        [span_1](start_span)<li>Deploying ML models and backend services on AWS and GCP[span_1](end_span).</li>
                     </ul>
                 </div>
-                <div>
-                    [span_9](start_span)<h3 class="font-bold text-lg">Smart Solutions IT — Lead Android
-                        Developer[span_9](end_span)</h3>
-                    [span_10](start_span)<p class="text-gray-600">April 2025 - May 2025[span_10](end_span)</p>
-                    <ul class="list-disc ml-5 mt-2">
-                        [span_11](start_span)<li>Led updates for a religious app with 1M+ downloads[span_11](end_span).
-                        </li>
-                        [span_12](start_span)<li>Implemented audio-text sync and improved
-                            accessibility[span_12](end_span).</li>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+                    <h3 class="text-xl font-bold">Smart Solutions IT — Lead Android Developer</h3>
+                    <p class="text-slate-500 italic">April 2025 - May 2025</p>
+                    <ul class="list-disc ml-6 mt-3 space-y-2 text-slate-700">
+                        [span_2](start_span)<li>Led development for a religious app with **1M+ downloads**[span_2](end_span).</li>
+                        [span_3](start_span)<li>Implemented audio-text synchronization and improved accessibility[span_3](end_span).</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section class="my-10">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-600 pb-2">Live Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                <a href="https://play.google.com/store/apps/details?id=com.smartsolution.nitnempathpro"
-                    class="p-4 border rounded hover:bg-gray-100 block">
-                    [span_13](start_span)<h3 class="font-bold text-blue-600">Nitnem Audio[span_13](end_span)</h3>
-                    [span_14](start_span)<p class="text-sm">1M+ Downloads religious application[span_14](end_span).</p>
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-blue-600 border-b-4 border-blue-600 inline-block mb-6">Live Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <a href="https://play.google.com/store/apps/details?id=com.smartsolution.nitnempathpro" target="_blank" class="block p-6 bg-white border border-slate-200 rounded-xl hover:shadow-md transition group">
+                    <h3 class="font-bold text-xl group-hover:text-blue-600">Nitnem Audio</h3>
+                    [span_4](start_span)<p class="text-slate-600 mt-2">High-traffic religious application with complex media features[span_4](end_span).</p>
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.nisargmedia.lumeo"
-                    class="p-4 border rounded hover:bg-gray-100 block">
-                    [span_15](start_span)<h3 class="font-bold text-blue-600">Lumeo[span_15](end_span)</h3>
-                    [span_16](start_span)<p class="text-sm">Cross-platform Flutter application[span_16](end_span).</p>
+                <a href="https://play.google.com/store/apps/details?id=com.nisargmedia.lumeo" target="_blank" class="block p-6 bg-white border border-slate-200 rounded-xl hover:shadow-md transition group">
+                    <h3 class="font-bold text-xl group-hover:text-blue-600">Lumeo</h3>
+                    [span_5](start_span)<p class="text-slate-600 mt-2">Modern cross-platform Flutter application live on Play Store[span_5](end_span).</p>
                 </a>
             </div>
         </section>
 
-        <section class="my-10">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-600 pb-2">Technical Skills</h2>
-            <div class="flex flex-wrap gap-2 mt-4">
-                [span_17](start_span)<span
-                    class="bg-gray-200 px-3 py-1 rounded text-sm">Flutter[span_17](end_span)</span>
-                [span_18](start_span)<span
-                    class="bg-gray-200 px-3 py-1 rounded text-sm">Python[span_18](end_span)</span>
-                [span_19](start_span)<span class="bg-gray-200 px-3 py-1 rounded text-sm">Machine
-                    Learning[span_19](end_span)</span>
-                [span_20](start_span)<span
-                    class="bg-gray-200 px-3 py-1 rounded text-sm">AWS/GCP[span_20](end_span)</span>
-                [span_21](start_span)<span
-                    class="bg-gray-200 px-3 py-1 rounded text-sm">Firebase[span_21](end_span)</span>
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-blue-600 border-b-4 border-blue-600 inline-block mb-6">Technical Skills</h2>
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">Flutter</span>
+                <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">Python (ML/Data Science)</span>
+                <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">AWS & GCP</span>
+                <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">Android (Java/SDK)</span>
+                <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">Firebase</span>
+                <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">RESTful APIs</span>
             </div>
         </section>
     </main>
 
-    <footer class="bg-gray-800 text-white py-6 text-center">
-        <p>&copy; 2026 Sukhmeet Singh</p>
+    <footer class="bg-slate-900 text-slate-400 py-10 text-center">
+        <p>&copy; 2026 Sukhmeet Singh | Patiala, Punjab</p>
     </footer>
 
 </body>
-
 </html>
